@@ -4,8 +4,10 @@ import Footer from "../../shared/Footer";
 import JobCard from "../../shared/JobCard";
 import SearchBar from "./SearchBar";
 import { useSelector } from "react-redux";
+import useGetAllJobs from "../../../hooks/useGetAllJobs";
 
 const Jobs = () => {
+  useGetAllJobs();
   const { alljobs } = useSelector((state) => state.jobs);
 
   // Local state to store search term and filters
