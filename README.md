@@ -82,7 +82,7 @@ Want to improve **HireBus**? We welcome contributions!
 For any questions, feedback, or feature requests, reach out to me:  
 
 📩 **Email:** vansh.singhal@hotmail.com  
-💼 **LinkedIn:** [https://www.linkedin.com/in/vansh-singhal-689bab348/](https://www.linkedin.com/in/vansh-singhal-182939289/)
+💼 **LinkedIn:** (https://www.linkedin.com/in/vansh-singhal-182939289/)
 
 ---
 
