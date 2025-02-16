@@ -16,6 +16,7 @@ const dbgr = debug("development:app");
 
 const app = express();
 const _dirname = path.resolve();
+
 //middlewares
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
@@ -26,15 +27,15 @@ const corsOption = {
 }
 app.use(cors(corsOption));
 
-app.use("/user",userRouter);
-app.use("/company",companyRouter);
-app.use("/job",jobRouter);
-app.use("/application",applicationRouter);
+app.use("/api/user",userRouter);
+app.use("/api/company",companyRouter);
+app.use("/api/job",jobRouter);
+app.use("/api/application",applicationRouter);
 
 const PORT = process.env.PORT || 3000;
 
 app.use(express.static(path.join(_dirname,"/frontend/dist")));
-app.get('*' , (req,res) => {
+app.get('*' , (_,res) => {
     res.sendFile(path.resolve(_dirname, "frontend" , "dist", "index.html"));
 });
 
