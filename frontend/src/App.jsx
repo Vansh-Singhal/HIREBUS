@@ -14,7 +14,7 @@ import CreateCompany from "./components/Pages/AdminPages/CreateCompany/CreateCom
 import CreateJob from "./components/Pages/AdminPages/CreateJob/CreateJob.jsx";
 import JobApplications from "./components/Pages/AdminPages/JobApplications/JobApplications.jsx";
 import Browse from "./components/Pages/Browse/Browse.jsx";
-import AdminRoutes from "./components/Pages/AdminPages/adminRoutes.jsx";
+import AdminRoutes from "./components/Pages/AdminPages/AdminRoutes.jsx";
 
 const AppRouter = createBrowserRouter([
   {
