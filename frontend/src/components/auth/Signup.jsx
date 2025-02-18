@@ -1,5 +1,5 @@
 import Navbar from '../shared/Navbar';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { FaUser, FaEnvelope, FaLock, FaPhone } from 'react-icons/fa';
 import { LuLoaderCircle } from "react-icons/lu";
 import { Link, useNavigate } from 'react-router-dom';
