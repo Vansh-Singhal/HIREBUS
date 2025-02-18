@@ -38,7 +38,7 @@ const Jobs = () => {
     const isJobTypeMatch = filters.jobType
       ? job.jobType.toLowerCase().includes(filters.jobType.toLowerCase())
       : true;
-    return isLocationMatch  && isJobTypeMatch;
+    return isLocationMatch  && isJobTypeMatch && isSearchMatch;
   });
 
   return (
